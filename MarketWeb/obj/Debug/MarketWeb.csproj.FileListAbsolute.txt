@@ -1,0 +1,66 @@
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\csc.exe
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\vbc.exe
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\MarketWeb.dll.config
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\MarketWeb.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\MarketWeb.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Helpers.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Mvc.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Razor.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Razor.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Helpers.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\bin\System.Web.Mvc.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.csprojResolveAssemblyReference.cache
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\csc.exe
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\vbc.exe
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\MarketWeb.dll.config
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\MarketWeb.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\MarketWeb.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Helpers.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Mvc.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Razor.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Razor.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Helpers.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\bin\System.Web.Mvc.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.csprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketWeb\obj\Debug\MarketWeb.pdb

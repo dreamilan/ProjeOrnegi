@@ -1,0 +1,129 @@
+﻿@model IEnumerable<MarketWeb.ServiceReference1.TB_ProductSurrogate>
+@{
+    Layout = "~/Views/Shared/_LayouActive.cshtml";
+    ViewBag.Title = "Ürünler";
+}
+<h2>Ürünler</h2>
+<div class="container">
+    <div class="col-md-3">
+
+        <div class="container">
+            <form role="form">
+                <button type="button" class="btn btn-default" onclick="FiltreleriTemizle()">Temizle</button>
+                <div class="form-group">
+                    <div class="row">
+                        <label for="ddlKategoriler">Kategoriler</label>
+                        <select multiple class="form-control" id="ddlKategoriler">
+                            @foreach (var item in ViewBag.Kategoriler)
+                            {
+                                <option value="@item.CategoryID">@item.CategoryName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="ddlSehirler">Şehirler</label>
+                        <select multiple class="form-control" id="ddlSehirler">
+                            @foreach (var item in ViewBag.Sehirler)
+                            {
+                                <option value="@item.CityID">@item.CityName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="ddlRenkler">Renkler</label>
+                        <select multiple class="form-control" id="ddlRenkler">
+                            @foreach (var item in ViewBag.Renkler)
+                            {
+                                <option value="@item.ColoID">@item.ColorName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="txtMinPrice">Min Price:</label>
+                            <input type="number" class="form-control" id="txtMinPrice">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtMaxPrice">Max Price:</label>
+                            <input type="number" class="form-control" id="txtMaxPrice">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="txtMinTarih">Min Tarih:</label>
+                            <input type="date" class="form-control" id="txtMinTarih" placeholder="mm.dd.yyyy">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtMaxTarih">Max Tarih:</label>
+                            <input type="date" class="form-control" id="txtMaxTarih" placeholder="mm.dd.yyyy">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-primary-outline col-md-3" onclick="Filtrele()">Filtrele</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-9">
+        <p>
+            @Html.ActionLink("Yeni Ürün", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateAdded)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Color)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateAdded)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City.CityName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Color.ColorName)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ProductID })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="~/Scripts/Utilities.js"></script>
+<script type="text/javascript">FiltreleriYukle();</script>

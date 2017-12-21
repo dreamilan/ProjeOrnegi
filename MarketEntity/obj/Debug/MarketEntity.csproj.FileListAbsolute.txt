@@ -1,0 +1,20 @@
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.dll.config
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.csprojResolveAssemblyReference.cache
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.dll.config
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\MarketEntity.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.csprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketEntity\obj\Debug\MarketEntity.pdb

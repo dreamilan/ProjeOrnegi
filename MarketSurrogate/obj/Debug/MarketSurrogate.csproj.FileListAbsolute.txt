@@ -1,0 +1,9 @@
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketSurrogate\bin\Debug\MarketSurrogate.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketSurrogate\bin\Debug\MarketSurrogate.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketSurrogate\obj\Debug\MarketSurrogate.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketSurrogate\obj\Debug\MarketSurrogate.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketSurrogate\bin\Debug\MarketSurrogate.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketSurrogate\bin\Debug\MarketSurrogate.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketSurrogate\obj\Debug\MarketSurrogate.csprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketSurrogate\obj\Debug\MarketSurrogate.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketSurrogate\obj\Debug\MarketSurrogate.pdb

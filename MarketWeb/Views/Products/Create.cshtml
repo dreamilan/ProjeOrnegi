@@ -1,0 +1,106 @@
+﻿@model MarketWeb.ServiceReference1.TB_ProductSurrogate
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayouActive.cshtml";
+}
+
+<h2>Yeni Ürün</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Ürün</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateAdded, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DateAdded, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DateAdded, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            
+            <label for="ColorID" class = "control-label col-md-2">Renk</label>
+            <div class="col-md-10">
+                @Html.Editor("ColorID", new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                <select class="form-control" id="ddlRenkler" onchange="DegerAta('ddlRenkler', 'ColorID')">
+                    <option value="">Seçiniz</option>
+                    @foreach (var item in ViewBag.Renkler)
+                    {
+                        <option value="@item.ColoID">@item.ColorName</option>
+                    }
+                </select>
+
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="CategoryID" class = "control-label col-md-2">Kategori</label>
+            <div class="col-md-10">
+                @Html.Editor("CategoryID", new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                <select class="form-control" id="ddlKategoriler" onchange="DegerAta('ddlKategoriler', 'CategoryID')">
+                    <option value="">Seçiniz</option>
+                    @foreach (var item in ViewBag.Kategoriler)
+                    {
+                        <option value="@item.CategoryID">@item.CategoryName</option>
+                    }
+                </select>
+
+                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="CityID" class = "control-label col-md-2">Şehir</label>
+            <div class="col-md-10">
+                @Html.Editor("CityID", new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                <select class="form-control" id="ddlSehirler" onchange="DegerAta('ddlSehirler','CityID')">
+                    <option value="">Seçiniz</option>
+                    @foreach (var item in ViewBag.Sehirler)
+                    {
+                        <option value="@item.CityID">@item.CityName</option>
+                    }
+                </select>
+
+                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Geri Dön", "Index")
+</div>
+<script type="text/javascript">
+    function DegerAta(kaynak,hedef)
+    {
+        var e = document.getElementById(kaynak);
+        var result = e.options[e.selectedIndex].value;
+        var e = document.getElementById(hedef);
+        e.setAttribute("value", result);
+    }
+</script>
+

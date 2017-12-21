@@ -1,0 +1,94 @@
+﻿@model MarketWeb.ServiceReference1.TB_UserSurrogate
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="container">
+                @using (Html.BeginForm("LoginUser", "Home", FormMethod.Post))
+                {
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label for="txtUserLogin">Kullanıcı Adı</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.TextBox("username")
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="txtPasswordLogin">Şifre</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.Password("password")
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <input type="submit" id="btnLogin" name="btnLogin" value="Giriş Yap">
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="container">
+                @using (Html.BeginForm("RegisterUser", "Home", FormMethod.Post))
+                {
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label for="txtUserRegister">Kullanıcı Adı</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.TextBoxFor(m=>m.Username)
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="txtPasswordRegister">Şifre</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.PasswordFor(m=>m.Password)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="txtNameRegister">Ad</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.TextBoxFor(m => m.Name)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="txtSurnameRegister">Soyad</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.TextBoxFor(m => m.Surname)
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label for="txtEmailRegister">Email</label>
+                        </div>
+                        <div class="col-lg-8">
+                            @Html.TextBoxFor(m => m.Email)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <input type="submit" id="btnLogin" name="btnLogin" value="Kayıt Ol">
+
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

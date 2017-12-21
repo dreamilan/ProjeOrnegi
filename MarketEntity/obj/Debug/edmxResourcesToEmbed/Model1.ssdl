@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MarketDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TB_Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TB_City">
+    <Key>
+      <PropertyRef Name="CityID" />
+    </Key>
+    <Property Name="CityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CityName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TB_Color">
+    <Key>
+      <PropertyRef Name="ColoID" />
+    </Key>
+    <Property Name="ColoID" Type="int" Nullable="false" />
+    <Property Name="ColorName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ColorCode" Type="nvarchar" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="TB_Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="ColorID" Type="int" />
+    <Property Name="CityID" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+  </EntityType>
+  <EntityType Name="TB_User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="MarketDBModelStoreContainer">
+    <EntitySet Name="TB_Category" EntityType="Self.TB_Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_City" EntityType="Self.TB_City" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_Color" EntityType="Self.TB_Color" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_Product" EntityType="Self.TB_Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_User" EntityType="Self.TB_User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

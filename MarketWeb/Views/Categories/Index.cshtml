@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MarketWeb.ServiceReference1.TB_CategorySurrogate>
+@{
+    ViewBag.Title = "Kategoriler";
+    Layout = "~/Views/Shared/_LayouActive.cshtml";
+}
+<h2>Kategoriler</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.ActionLink("Düzenle", "Edit", new { Model = item.CategoryID , categoryID = item.CategoryID }) |
+                @Html.ActionLink("Sil", "Delete", new { category = item })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,28 @@
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketService.dll.config
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketService.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketService.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketBusiness.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketSurrogate.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketEntity.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\EntityFramework.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketBusiness.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketSurrogate.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\MarketEntity.pdb
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\bin\EntityFramework.xml
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\obj\Debug\MarketService.csprojResolveAssemblyReference.cache
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\obj\Debug\MarketService.dll
+C:\Users\Muharrem\documents\visual studio 2015\Projects\ProjeOrnegi\MarketService\obj\Debug\MarketService.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketService.dll.config
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketService.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketService.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketBusiness.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketSurrogate.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketEntity.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\EntityFramework.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketBusiness.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketSurrogate.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\MarketEntity.pdb
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\bin\EntityFramework.xml
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\obj\Debug\MarketService.csprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\obj\Debug\MarketService.dll
+C:\Users\USER\Downloads\ProjeOrnegi\ProjeOrnegi\MarketService\obj\Debug\MarketService.pdb
